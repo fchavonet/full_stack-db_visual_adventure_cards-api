@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-003",
+  "part": "special",
+  "number": "003",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "世界の果てまで!",
+  "title_en": "To the ends of the world!",
+  "title_fr": "Jusqu'au bout du monde !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-003.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-003.webp",
+  "updated_at": "2026-11-05T15:44:27.263Z"
+}

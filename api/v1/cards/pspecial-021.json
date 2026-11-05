@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-021",
+  "part": "special",
+  "number": "021",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "間に合ってくれ!",
+  "title_en": "Please make it in time!",
+  "title_fr": "Pourvu qu'il arrive à temps !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-021.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-021.webp",
+  "updated_at": "2026-11-05T15:44:27.267Z"
+}

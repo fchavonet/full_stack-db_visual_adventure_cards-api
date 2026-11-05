@@ -3,11 +3,11 @@
   "part": "5",
   "number": "189",
   "year": 1992,
-  "rarity": "standard",
+  "rarity": "regular",
   "title_jp": "悟空とバイク",
   "title_en": "Goku and his motorcycle",
   "title_fr": "Son Goku et sa moto",
   "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_5/part_5-189.webp",
   "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_5/part_5-189.webp",
-  "updated_at": "2026-11-05T11:03:21.580Z"
+  "updated_at": "2026-11-05T15:44:27.258Z"
 }

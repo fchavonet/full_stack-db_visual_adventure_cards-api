@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-promo",
+  "part": "special",
+  "number": "promo",
+  "year": 1993,
+  "rarity": "promo",
+  "title_jp": "ビジュアル・アドベンチャー・スペシャル",
+  "title_en": "Visual Adventure Special",
+  "title_fr": "Visual Adventure Special",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-promo.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-promo.webp",
+  "updated_at": "2026-11-05T15:44:27.271Z"
+}

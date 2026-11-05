@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-009",
+  "part": "special",
+  "number": "009",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "急げ筋斗雲!",
+  "title_en": "Hurry, flying nimbus!",
+  "title_fr": "Vite, nuage magique !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-009.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-009.webp",
+  "updated_at": "2026-11-05T15:44:27.264Z"
+}

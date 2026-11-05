@@ -3,11 +3,11 @@
   "part": "5",
   "number": "204",
   "year": 1992,
-  "rarity": "standard",
+  "rarity": "regular",
   "title_jp": "謎のタイムマシン",
   "title_en": "The mysterious time machine",
   "title_fr": "La mystérieuse machine à voyager dans le temps",
   "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_5/part_5-204.webp",
   "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_5/part_5-204.webp",
-  "updated_at": "2026-11-05T11:03:21.583Z"
+  "updated_at": "2026-11-05T15:44:27.261Z"
 }

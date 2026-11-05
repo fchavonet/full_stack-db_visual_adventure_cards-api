@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-030",
+  "part": "special",
+  "number": "030",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "伝説の超サイヤ人",
+  "title_en": "The legendary Super Saiyan",
+  "title_fr": "Le légendaire Super Saiyan",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-030.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-030.webp",
+  "updated_at": "2026-11-05T15:44:27.269Z"
+}

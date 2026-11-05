@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-013",
+  "part": "special",
+  "number": "013",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "波乱せまる！",
+  "title_en": "Turmoil approaches!",
+  "title_fr": "La tourmente approche !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-013.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-013.webp",
+  "updated_at": "2026-11-05T15:44:27.265Z"
+}

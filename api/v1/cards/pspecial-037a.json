@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-037a",
+  "part": "special",
+  "number": "037a",
+  "year": 1993,
+  "rarity": "prism",
+  "title_jp": "悟空の戦い",
+  "title_en": "Goku's battle",
+  "title_fr": "Le combat de Son Goku",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-037a.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-037a.webp",
+  "updated_at": "2026-11-05T15:44:27.270Z"
+}

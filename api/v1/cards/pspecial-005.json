@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-005",
+  "part": "special",
+  "number": "005",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "めざせ天下一!",
+  "title_en": "Aim to be the best in the world!",
+  "title_fr": "Deviens le meilleur du monde !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-005.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-005.webp",
+  "updated_at": "2026-11-05T15:44:27.264Z"
+}

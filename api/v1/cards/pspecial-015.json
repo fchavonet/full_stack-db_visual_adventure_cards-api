@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-015",
+  "part": "special",
+  "number": "015",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "はたして勝者は!?",
+  "title_en": "Who will be the winner!?",
+  "title_fr": "Qui sera le vainqueur !?",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-015.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-015.webp",
+  "updated_at": "2026-11-05T15:44:27.266Z"
+}

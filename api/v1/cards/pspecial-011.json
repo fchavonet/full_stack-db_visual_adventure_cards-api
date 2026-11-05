@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-011",
+  "part": "special",
+  "number": "011",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "第22回天下一武道会",
+  "title_en": "22nd World Martial Arts Tournament",
+  "title_fr": "22ᵉ tournoi d'arts martiaux",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-011.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-011.webp",
+  "updated_at": "2026-11-05T15:44:27.265Z"
+}

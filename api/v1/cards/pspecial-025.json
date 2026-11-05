@@ -1,0 +1,13 @@
+{
+  "id": "pspecial-025",
+  "part": "special",
+  "number": "025",
+  "year": 1993,
+  "rarity": "regular",
+  "title_jp": "ナメック星をめざせ！",
+  "title_en": "Head for planet Namek!",
+  "title_fr": "Cap sur Namek !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_special/part_special-025.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_special/part_special-025.webp",
+  "updated_at": "2026-11-05T15:44:27.268Z"
+}
