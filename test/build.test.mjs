@@ -116,16 +116,16 @@ describe("API creation functions", () => {
   describe("determineCardRarity", () => {
     it("Should determine card rarity >", () => {
       // Invalid or empty values.
-      expect(determineCardRarity(null)).toBe("standard");
-      expect(determineCardRarity(undefined)).toBe("standard");
-      expect(determineCardRarity("")).toBe("standard");
-      expect(determineCardRarity(0)).toBe("standard");
-      expect(determineCardRarity(false)).toBe("standard");
+      expect(determineCardRarity(null)).toBe("regular");
+      expect(determineCardRarity(undefined)).toBe("regular");
+      expect(determineCardRarity("")).toBe("regular");
+      expect(determineCardRarity(0)).toBe("regular");
+      expect(determineCardRarity(false)).toBe("regular");
 
       // Valid rarity values.
-      expect(determineCardRarity("standard")).toBe("standard");
-      expect(determineCardRarity("Standard")).toBe("standard");
-      expect(determineCardRarity("  STANDARD  ")).toBe("standard");
+      expect(determineCardRarity("regular")).toBe("regular");
+      expect(determineCardRarity("regular")).toBe("regular");
+      expect(determineCardRarity("  REGULAR  ")).toBe("regular");
       expect(determineCardRarity("prism")).toBe("prism");
       expect(determineCardRarity("Prism")).toBe("prism");
       expect(determineCardRarity("  PRISM  ")).toBe("prism");
@@ -133,10 +133,10 @@ describe("API creation functions", () => {
       expect(determineCardRarity("Special")).toBe("special");
       expect(determineCardRarity("  SPECIAL  ")).toBe("special");
 
-      // Unknown values default to standard.
-      expect(determineCardRarity("promo")).toBe("standard");
-      expect(determineCardRarity("other")).toBe("standard");
-      expect(determineCardRarity("123")).toBe("standard");
+      // Unknown values default to regular.
+      expect(determineCardRarity("promo")).toBe("promo");
+      expect(determineCardRarity("other")).toBe("regular");
+      expect(determineCardRarity("123")).toBe("regular");
     });
   });
 
@@ -215,7 +215,7 @@ describe("API creation functions", () => {
       expect(result.prismMaskExists).toBe(true);
     });
 
-    it("Should not add Prism mask URL to standard card >", async () => {
+    it("Should not add Prism mask URL to regular card >", async () => {
       vi.spyOn(fs, "pathExists").mockResolvedValue(true);
 
       const csvRow = {
@@ -224,13 +224,13 @@ describe("API creation functions", () => {
         title_jp: "Test Card JP",
         title_en: "Test Card EN",
         title_fr: "Test Card FR",
-        rarity: "standard",
+        rarity: "regular",
         year: "2025"
       };
 
       const result = await convertRowToCard(csvRow);
 
-      expect(result.card.rarity).toBe("standard");
+      expect(result.card.rarity).toBe("regular");
       expect(result.card).not.toHaveProperty("prism_mask_url");
       expect(result.prismMaskExists).toBe(true);
     });
@@ -317,7 +317,7 @@ describe("Main build function", () => {
 
       // Mock file system operations.
       vi.spyOn(fs, "readFile")
-        .mockResolvedValueOnce("part,number,year,title_jp,title_en,title_fr,rarity\n1,1,1991,Test,Test,Test,standard")
+        .mockResolvedValueOnce("part,number,year,title_jp,title_en,title_fr,rarity\n1,1,1991,Test,Test,Test,regular")
         .mockResolvedValueOnce('{"$schema":"http://json-schema.org/draft-07/schema#","type":"object"}');
 
       vi.spyOn(fs, "pathExists").mockResolvedValue(true);

@@ -16,7 +16,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^p[\\w]+-\\d{3}[a-z]?$"
+      "pattern": "^p[\\w]+-(\\d{3}[a-z]?|promo)$"
     },
     "part": {
       "type": "string",
@@ -24,7 +24,7 @@
     },
     "number": {
       "type": "string",
-      "pattern": "^\\d{3}$"
+      "pattern": "^(\\d{3}[a-z]?|promo)$"
     },
     "year": {
       "type": "integer",
@@ -43,9 +43,11 @@
     "rarity": {
       "type": "string",
       "enum": [
-        "standard",
+        "regular",
         "prism",
-        "special"
+        "special",
+        "metal",
+        "promo"
       ]
     },
     "front_image_url": {

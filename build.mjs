@@ -15,22 +15,19 @@ const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp"];
 
 // Format card number to a 3-digit string (001, 002, 003, etc...).
 export function formatCardNumber(number) {
-  const numberAsString = String(number).trim();
-  const parsedNumber = Number(numberAsString);
+  const value = String(number).trim().toLowerCase();
 
-  if (Number.isNaN(parsedNumber)) {
+  if (value === "promo") {
+    return "promo";
+  }
+
+  const match = value.match(/^(\d{1,3})([a-z]?)$/);
+
+  if (!match) {
     return null;
   }
 
-  if (parsedNumber < 10) {
-    return "00" + String(parsedNumber);
-  }
-
-  if (parsedNumber < 100) {
-    return "0" + String(parsedNumber);
-  }
-
-  return String(parsedNumber);
+  return match[1].padStart(3, "0") + match[2];
 }
 
 // Create card ID (p1-001, p1-002, p1-003...).
@@ -105,24 +102,28 @@ export async function loadJsonSchema() {
 // Determines the rarity of the card.
 export function determineCardRarity(rarityValue) {
   if (!isValidValue(rarityValue)) {
-    return "standard";
+    return "regular";
   }
 
   const cleanRarity = String(rarityValue).toLowerCase().trim();
 
   if (cleanRarity === "standard") {
-    return "standard";
+    return "regular";
   }
 
-  if (cleanRarity === "prism") {
-    return "prism";
+  const validRarities = [
+    "regular",
+    "prism",
+    "special",
+    "metal",
+    "promo"
+  ];
+
+  if (validRarities.includes(cleanRarity)) {
+    return cleanRarity;
   }
 
-  if (cleanRarity === "special") {
-    return "special";
-  }
-
-  return "standard";
+  return "regular";
 }
 
 // Find the path to the image that actually exists.
