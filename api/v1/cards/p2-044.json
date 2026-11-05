@@ -1,0 +1,14 @@
+{
+  "id": "p2-044",
+  "part": "2",
+  "number": "044",
+  "year": 1991,
+  "rarity": "prism",
+  "title_jp": "神龍と悟空",
+  "title_en": "Shenron and Goku",
+  "title_fr": "Shenron et Son Goku",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_2/part_2-044.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_2/part_2-044.webp",
+  "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/mask/part_2/part_2-044.webp",
+  "updated_at": "2026-11-05T11:03:21.551Z"
+}
