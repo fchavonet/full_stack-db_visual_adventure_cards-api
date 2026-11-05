@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-11-05T09:58:57.728Z",
+  "generated_at": "2026-11-05T10:37:17.911Z",
   "counts": {
-    "parts": 5,
-    "cards": 210
+    "parts": 6,
+    "cards": 211
   },
   "parts": {
     "1": {
@@ -25,6 +25,10 @@
     "5": {
       "total_cards": 42,
       "year": 1992
+    },
+    "Special": {
+      "total_cards": 1,
+      "year": 1993
     }
   }
 }
