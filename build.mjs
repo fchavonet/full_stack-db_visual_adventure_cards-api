@@ -147,6 +147,12 @@ export async function findExistingImagePath(imageType, partNumber, formattedNumb
 export async function convertRowToCard(csvRow) {
   const partNumber = String(csvRow.part).trim();
 
+  let partName = partNumber;
+
+  if (partNumber === "95") {
+    partName = "'95";
+  }
+
   if (!isValidValue(partNumber)) {
     throw new Error("Invalid part number: " + String(csvRow.part));
   }
@@ -167,7 +173,7 @@ export async function convertRowToCard(csvRow) {
 
   const cardObject = {
     id: cardId,
-    part: partNumber,
+    part: partName,
     number: formattedNumber
   };
 
@@ -329,6 +335,10 @@ export async function buildApiFiles() {
     const cardsInPart = cardsByPartEntries[i][1];
 
     await writeJsonFile(OUTPUT_DIRECTORY + "/parts/" + partNumber + ".json", cardsInPart);
+
+    if (partNumber === "'95") {
+      await writeJsonFile(OUTPUT_DIRECTORY + "/parts/95.json", cardsInPart);
+    }
   }
 
   for (let i = 0; i < allBuiltCards.length; i++) {
