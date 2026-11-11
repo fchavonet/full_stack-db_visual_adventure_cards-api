@@ -153,6 +153,10 @@ export async function convertRowToCard(csvRow) {
     partName = "'95";
   }
 
+  if (partNumber === "95_ex") {
+    partName = "'95 EX";
+  }
+
   if (!isValidValue(partNumber)) {
     throw new Error("Invalid part number: " + String(csvRow.part));
   }
@@ -338,6 +342,10 @@ export async function buildApiFiles() {
 
     if (partNumber === "'95") {
       await writeJsonFile(OUTPUT_DIRECTORY + "/parts/95.json", cardsInPart);
+    }
+
+    if (partNumber === "'95 EX") {
+      await writeJsonFile(OUTPUT_DIRECTORY + "/parts/95_ex.json", cardsInPart);
     }
   }
 
